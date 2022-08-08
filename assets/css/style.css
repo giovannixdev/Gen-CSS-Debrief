@@ -1,0 +1,108 @@
+
+body {
+
+}
+
+/* Navigation Styles */
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #0f1337;
+	display: table;
+	width: 100%;
+}
+nav li {
+	display: table-cell
+}
+li a {
+	display: block;
+	color: white;
+	padding: 30px 30px 30px 30px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: rgb(40, 39, 39);
+}
+
+/* Header Styles */
+/*
+header {
+	background-color:
+}
+h1 {
+	color:
+} */
+
+
+/* Main Page Content Styles */
+
+section {
+	display: flex;
+	justify-content: center;
+
+	width: 80%;
+	margin: auto;
+}
+.center-title {
+
+}
+
+/* About Section Styles */
+#about-sec {
+	display: flex;
+
+}
+#about-sec div {
+	display: inline-flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+}
+figure {
+	display: flex;
+
+}
+
+/* Aside Styles */
+aside {
+	display: flex;
+	flex-direction: column;
+
+}
+
+/* Table - Concert Schedule Styles */
+#concert-schedule-sec {
+	max-width: 940px;
+	margin: 0 auto;
+	height: max-content;
+	}
+
+/* Form - Ticket Form Styles */
+form {
+	width: 35vw;
+	margin: auto;
+  }
+
+input[type="text"], input[type="number"] {
+min-height: 15px;
+border-radius: 5px;
+border:1px solid #cccccc;
+}
+
+input[type="radio"] {
+margin-left: 12px;
+}
+
+th {
+border: 2px solid #8c6b48;
+}
+
+table {
+text-align: center;
+margin: 20px auto;
+}
+
+td {
+border: 2px solid #8c6b48;
+width: 300px;
+}
